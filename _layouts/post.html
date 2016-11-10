@@ -2,7 +2,8 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<span style="font-weight:bold"><p class="meta">By {{ page.post_author }}</p></span>
+<span style="font-weight:bold"><p class="meta">{{ page.date | date_to_string }}</p></span>
 
 <div class="post">
   {{ content }}

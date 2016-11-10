@@ -2,6 +2,7 @@
 layout: post
 title: Sample Post
 date: 2016-11-08
+post_author: Random Person
 ---
 Testing markdown posting $$e=mc^2$$
 
