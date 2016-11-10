@@ -1091,7 +1091,7 @@ html {
 }
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #2c3e50;
   background-color: #ffffff;
@@ -1152,8 +1152,8 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 21px;
-  margin-bottom: 21px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border: 0;
   border-top: 1px solid #ecf0f1;
 }
@@ -1192,7 +1192,7 @@ h6,
 .h5,
 .h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
@@ -1230,8 +1230,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 21px;
-  margin-bottom: 10.5px;
+  margin-top: 24px;
+  margin-bottom: 12.5px;
 }
 h1 small,
 .h1 small,
@@ -1253,8 +1253,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10.5px;
-  margin-bottom: 10.5px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
 }
 h4 small,
 .h4 small,
@@ -1272,45 +1272,45 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 39px;
+  font-size: 46px;
 }
 h2,
 .h2 {
-  font-size: 32px;
+  font-size: 38px;
 }
 h3,
 .h3 {
-  font-size: 26px;
+  font-size: 31px;
 }
 h4,
 .h4 {
-  font-size: 19px;
+  font-size: 23px;
 }
 h5,
 .h5 {
-  font-size: 15px;
+  font-size: 18px;
 }
 h6,
 .h6 {
-  font-size: 13px;
+  font-size: 116px;
 }
 p {
-  margin: 0 0 10.5px;
+  margin: 0 0 12.5px;
 }
 .lead {
-  margin-bottom: 21px;
-  font-size: 17px;
+  margin-bottom: 25px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 22.5px;
+    font-size: 27px;
   }
 }
 small,
 .small {
-  font-size: 86%;
+  font-size: 88%;
 }
 mark,
 .mark {
@@ -1416,14 +1416,14 @@ a.bg-danger:focus {
   background-color: #d62c1a;
 }
 .page-header {
-  padding-bottom: 9.5px;
-  margin: 42px 0 21px;
+  padding-bottom: 11.5px;
+  margin: 50px 0 25px;
   border-bottom: 1px solid transparent;
 }
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10.5px;
+  margin-bottom: 12.5px;
 }
 ul ul,
 ol ul,
@@ -1447,7 +1447,7 @@ ol ol {
 }
 dl {
   margin-top: 0;
-  margin-bottom: 21px;
+  margin-bottom: 25px;
 }
 dt,
 dd {
@@ -1483,9 +1483,9 @@ abbr[data-original-title] {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 10.5px 21px;
-  margin: 0 0 21px;
-  font-size: 18.75px;
+  padding: 12.5px 25px;
+  margin: 0 0 25px;
+  font-size: 22.5px;
   border-left: 5px solid #ecf0f1;
 }
 blockquote p:last-child,
@@ -1531,7 +1531,7 @@ blockquote.pull-right .small:after {
   content: '\00A0 \2014';
 }
 address {
-  margin-bottom: 21px;
+  margin-bottom: 25px;
   font-style: normal;
   line-height: 1.42857143;
 }
@@ -1568,7 +1568,7 @@ pre {
   display: block;
   padding: 10px;
   margin: 0 0 10.5px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857143;
   word-break: break-all;
   word-wrap: break-word;
@@ -4976,7 +4976,7 @@ a.badge:focus {
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 23px;
+  font-size: 27px;
   font-weight: 200;
 }
 .jumbotron > hr {

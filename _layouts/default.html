@@ -12,8 +12,26 @@
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
       <script src="../bower_components/respond/dest/respond.min.js"></script>
     <![endif]-->
+    
+    <style type="text/css">
+p {
+   font-size: 18px;
+}
+</style>
 
-	  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+	  <!--<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+-->
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  CommonHTML: {
+    scale: 120
+  }
+});
+</script>
+<script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
   </head>
   <body>
@@ -47,7 +65,7 @@
     <div class="container">
 			
 			{{ content }}
-			
+
 	</div>
 
 
