@@ -1,2 +1,5 @@
 name: ARBlog
 markdown: kramdown
+
+# Google services
+google_analytics: UA-87245415-1
