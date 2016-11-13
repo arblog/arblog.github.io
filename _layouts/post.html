@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] %}
 <h1>{{ page.title }}</h1>
-<i><p class="meta">{{ page.date | date_to_string }}</p></i><i><p class="meta">by {{ page.post_author }}</p></i>
+<i><p class="meta">{{ page.date | date_to_string }}</p></i><i><p class="meta">by {{ author.display_name }}</p></i>
 
 
 <br>
@@ -10,5 +11,9 @@ layout: default
 <div class="post">
   {{ content }}
 </div>
+
+<br>
+
+{% include post_footer.html author=author url=page.url title=page.title %}
 
 {% include disqus.html %}

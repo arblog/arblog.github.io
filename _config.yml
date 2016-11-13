@@ -3,3 +3,11 @@ markdown: kramdown
 
 # Google services
 google_analytics: UA-87245415-1
+
+# Authors
+authors:
+  achyut:
+    display_name: Achyut Reddy
+    email: achyutreddy24@gmail.com
+    twitter: achyutr24
+    github: achyutreddy24

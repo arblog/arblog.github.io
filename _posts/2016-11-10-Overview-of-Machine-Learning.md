@@ -2,7 +2,7 @@
 layout: post
 title: Quick Overview of Machine Learning
 date: 2016-11-10
-post_author: Achyut Reddy
+author: achyut
 ---
 So what exactly is machine learning? At the very basic level, machine learning aims to predict an output from a input. 
 The novelty of machine learning is that it learns to do this without being explicitly told how to by a programmer. 
